@@ -1,0 +1,265 @@
+body {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Playfair Display", serif;
+}
+
+/* Logo flutuante */
+
+.navbar {
+  padding: 10px 0;
+  position: relative;
+}
+
+.navbar-container {
+  max-height: 80px;
+}
+
+.container-fluid {
+  background-color: #D4C4E2;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  gap: 20px;
+  width: 60vw;
+  height: 60px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 3;
+  box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.192);
+}
+
+.container-fluid a:hover {
+  background-color: #472D59;
+  border-radius: 5px;
+  color: #80648C;
+}
+
+.container-fluid ul li a {
+  color: #472D59;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.container-custom ul li a:hover {
+  text-decoration: none;
+  color: #F2EBF1;
+}
+
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.header-container img {
+  position: absolute;
+  top: 50px;
+  width: 600px;
+  height: 320px;
+  border-radius: 12px 12px 0 0;
+}
+
+
+.section-main {
+  background-color: white;
+  position: relative;
+  margin-top: -60px;
+}
+
+.main-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.navbar-brand {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-link {
+  color: black;
+  padding: 8px 15px;
+  margin: 0px 15px;
+  text-align: center;
+}
+
+.navbar-container {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.header {
+  background-color: #f3e8f4;
+  padding: 40px;
+  width: 50%;
+  /* Ocupa metade da tela */
+  text-align: left;
+}
+
+.images {
+  background-color: #f3e8f4;
+  padding: 40px;
+  width: 50%;
+  /* Ocupa metade da tela */
+  align-self: right;
+  float: right;
+}
+
+#bannerimg {
+  background-color: #f3e8f4;
+  padding: 35px;
+  width: 50%;
+  /* Ocupa metade da tela */
+  align-self: right;
+  float: right;
+}
+
+
+
+.header h1 {
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+}
+
+.header p {
+  font-size: 1rem;
+  color: black;
+}
+
+
+.image1 {
+  padding-left: 80px;
+
+}
+
+.image-caption {
+  display: block;
+  font-size: 12px;
+  color: #777;
+  margin-top: 5px;
+  font-style: italic;
+
+}
+
+/* Sidebar */
+.sidebar h5 {
+  font-size: 1.2rem;
+  align-self: center;
+}
+
+.sidebar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: sticky;
+  top: 120px;
+  height: calc(50vh - 100px);
+  overflow-y: auto;
+  padding: 20px;
+  border-radius: 8px;
+
+}
+
+.sidebar a:hover {
+  background-color: #f3e8f4;
+  box-shadow: 2px 2px 7px 3px #d8c6d9;
+  border-radius: 6px;
+  padding: 2px;
+  padding-inline: 5px;
+}
+
+
+.custom-footer {
+  background-color: #f3e8f4;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  color: black;
+  margin-top: 80px;
+
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 5%;
+  text-align: justify;
+  word-spacing: 1.5px;
+
+}
+
+#text-index {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+#header-fundo {
+    background-color: #f3e8f4;
+    background-image: url('bannerjogo.png');
+    padding: 320px;
+    width: 100%; /* Ocupa metade da tela */
+    align-self: right;
+    float: right;
+    height: 320px;
+}
+
+ .section-index{
+  background-color: white;
+  align-self: right;
+  min-width: 100%;
+  float: right;
+  height: 320px;
+}
+
